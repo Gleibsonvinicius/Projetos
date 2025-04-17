@@ -2,24 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    animation: backgroundChange 10s infinite; /* Animação de mudança de fundo */
+    animation: backgroundChange 10s infinite; 
 }
 
 @keyframes backgroundChange {
     0% {
-        background-color: #000000; /* Preto */
+        background-color: #000000; 
     }
     25% {
-        background-color: #ffffff; /* Branco */
+        background-color: #ffffff; 
     }
     50% {
-        background-color: #ff69b4; /* Rosa */
+        background-color: #ff69b4; 
     }
     75% {
-        background-color: #0000ff; /* Azul */
+        background-color: #0000ff;
     }
     100% {
-        background-color: #ff0000; /* Vermelho */
+        background-color: #ff0000;
     }
 }
 
@@ -57,7 +57,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    animation: colorChange 3s infinite; /* Animação de mudança de cor do botão */
+    animation: colorChange 3s infinite;
 }
 
 @keyframes colorChange {
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Cor ao passar o mouse */
+    background-color: #0056b3; 
 }
 
 .resultado {
@@ -90,16 +90,15 @@ button:hover {
 }
 
 .message {
-    display: none; /* Inicialmente escondida */
+    display: none; 
     margin-top: 20px;
     padding: 10px;
     background-color: #28a745;
     color: white;
     border-radius: 5px;
-    opacity: 0; /* Começa invisível */
-    transform: translateY(20px); /* Começa deslocada para baixo */
-    animation: fadeInBounce 0.5s forwards; /* Animação ao ser exibida */
-}
+    opacity: 0; 
+    transform: translateY(20px);
+    animation: fadeInBounce 0.5s forwards; 
 
 @keyframes fadeInBounce {
     0% {
@@ -108,14 +107,14 @@ button:hover {
     }
     60% {
         opacity: 1;
-        transform: translateY(-10px); /* Salto para cima */
+        transform: translateY(-10px); 
     }
     100% {
         opacity: 1;
-        transform: translateY(0); /* Posição final */
+        transform: translateY(0); 
     }
 }
 
 .message.show {
-    display: block; /* Exibe a mensagem */
+    display: block; 
 }
